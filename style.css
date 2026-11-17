@@ -533,3 +533,39 @@ footer {
         font-size: 36px;
     }
 }
+/* BISH SHOP KG — PREMIUM DESIGN */
+
+body {
+background: #f7f7f7;
+color: #171717;
+font-family: Arial, sans-serif;
+}
+
+header {
+background: #111;
+color: white;
+padding: 25px 7%;
+}
+
+.products {
+gap: 25px;
+padding: 30px 7%;
+}
+
+.product-card {
+background: white;
+border-radius: 12px;
+overflow: hidden;
+transition: 0.3s;
+box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.product-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+button {
+cursor: pointer;
+transition: 0.3s;
+}
